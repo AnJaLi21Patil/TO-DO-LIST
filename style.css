@@ -100,3 +100,18 @@ ul li span{
 ul li span:hover{
     border: #edeef0;
 }
+
+@media (max-width: 768px) {
+    .TODO-APP {
+        padding: 20px 15px 35px 10px;
+        margin: 50px auto 10px;
+    }
+
+   
+    ul li span {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 30px;
+    }
+}
